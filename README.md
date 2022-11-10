@@ -1,27 +1,53 @@
 # TravelAgency
+## Data to be stored
+- Hotel
+    - Name
+    - Number of stars
+    - Address
+    - Link
+    - Short description
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+- Trips
+    - Destination
+    - Travel mode (plane, car, ship, train) (FK -> separate table)
+    - Departure
+    - Arrival
+    - Hotel (FK)
+    - Travel cost
+    - Short description
+    - Number of people
+    - Pictures (e.g. from the hotel, from the place, from the surroundings)
 
-## Development server
+- Registrations
+    - Name
+    - Number of people
+    - Email
+    - Phone
+    - Trip (FK)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Functions
+- Admin functions
+    - Storing hotel data
+    - Storing trip data
+    - Querying registrations
 
-## Code scaffolding
+- Customer functions (no login required)
+    - Listing trips
+        - Filtering by destination
+        - Filtering by travel mode
+        - Filtering by time
+    - Registration for the trip
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Angular Part:
 
-## Build
+HTML és CSS létrehozása:
+- Login ablak
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Admin képernyők:
+- Szállodák listázása, módosítása, törlése, új rögzítése
+- Ajánlatok listázása, módosítása, törlése, új rögzítése
+- Jelentkezések listázása
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Publikus képernyők
+- Utazások listázása ( Szűrés: úti célra, utazási módra, időpontra)
+- Regisztráció az utazásra
