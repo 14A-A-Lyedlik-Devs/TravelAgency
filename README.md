@@ -1,4 +1,19 @@
 # TravelAgency
+
+# Angular Part:
+HTML és CSS létrehozása:
+- Login ablak
+
+Admin képernyők:
+- Szállodák listázása, módosítása, törlése, új rögzítése
+- Ajánlatok listázása, módosítása, törlése, új rögzítése
+- Jelentkezések listázása
+
+Publikus képernyők
+- Utazások listázása ( Szűrés: úti célra, utazási módra, időpontra)
+- Regisztráció az utazásra
+
+
 ## Data to be stored
 - Hotel
     - Name
@@ -37,17 +52,3 @@
         - Filtering by travel mode
         - Filtering by time
     - Registration for the trip
-
-# Angular Part:
-
-HTML és CSS létrehozása:
-- Login ablak
-
-Admin képernyők:
-- Szállodák listázása, módosítása, törlése, új rögzítése
-- Ajánlatok listázása, módosítása, törlése, új rögzítése
-- Jelentkezések listázása
-
-Publikus képernyők
-- Utazások listázása ( Szűrés: úti célra, utazási módra, időpontra)
-- Regisztráció az utazásra
