@@ -1,15 +1,15 @@
 # TravelAgency
 
-# Angular Part:
-HTML és CSS létrehozása:
+## Angular
+### HTML és CSS létrehozása:
 - Login ablak
 
-Admin képernyők:
+### Admin képernyők:
 - Szállodák listázása, módosítása, törlése, új rögzítése
 - Ajánlatok listázása, módosítása, törlése, új rögzítése
 - Jelentkezések listázása
 
-Publikus képernyők
+### Publikus képernyők
 - Utazások listázása ( Szűrés: úti célra, utazási módra, időpontra)
 - Regisztráció az utazásra
 
@@ -40,7 +40,7 @@ Publikus képernyők
     - Phone
     - Trip (FK)
 
-## Functions
+## Features
 - Admin functions
     - Storing hotel data
     - Storing trip data
